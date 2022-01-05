@@ -6,7 +6,7 @@
     在屏幕的右侧，占很小的比例，展示两个flicker
 
 
-# 模型部分 Model
+# 模型部分 Models
     CCA: 根据flicker的频率生成模版信号并进行计算
 
 # 通信部分 Communication
