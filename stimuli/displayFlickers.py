@@ -28,8 +28,8 @@ class Frame:
 
     # 获取i号方块在current_frame时的亮度
     def get_brightness(self,i):
-        return (sin(self.Rect[i].flicker_frequency * (self.current_frame / self.simple_fs) * pi * 2 + self.Rect[i].phase))
-        # return (1 + sin(self.Rect[i].flicker_frequency * (self.current_frame / self.simple_fs) * pi * 2 + self.Rect[i].phase)) / 2
+#         return (sin(self.Rect[i].flicker_frequency * (self.current_frame / self.simple_fs) * pi * 2 + self.Rect[i].phase))
+        return (1 + sin(self.Rect[i].flicker_frequency * (self.current_frame / self.simple_fs) * pi * 2 + self.Rect[i].phase)) / 2
 
     # 更新全部方块的亮度
     def update(self):
